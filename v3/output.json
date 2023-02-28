@@ -1,0 +1,27 @@
+{
+   "net_bin": "./models/hook_run103.bin",
+	"net_param": "./models/hook_run103.param",
+	"is_save_img": {
+		"is_save": 1,
+		"interval": 1500
+	},
+   "threshold_punch_top": {
+      "is_change_threadshold": 1,
+      "serious_punch_top": 1800,
+      "moderate_punch_top": 1400,
+      "mild_punch_top": 1000
+   },
+   "level": {
+      "warn": "warn",
+      "early_warn": "early_warn",
+      "abnormal": "abnormal"
+   },
+   "contral_cam": {
+      "is_contral_cam": 1,
+      "contral_cam_threadshold": 87
+   },
+   "label": "hook_detection",
+   "Pan": 55,
+   "Tilt": 87,
+   "Zoom": 1
+}
