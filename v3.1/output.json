@@ -1,0 +1,28 @@
+{
+   "net_bin": "./models/hook_wlxd_exp12.bin",
+	"net_param": "./models/hook_wlxd_exp12.param",
+	"is_save_img": {
+		"is_save": 1,
+		"interval": 1500
+	},
+   "threshold_punch_top": {
+      "is_change_threadshold": 1,
+      "serious_punch_top": 355,
+      "moderate_punch_top": 235,
+      "mild_punch_top": 180
+   },
+   "level": {
+      "smoothing_factor": 5,
+      "warn": "warn",
+      "early_warn": "early_warn",
+      "abnormal": "abnormal"
+   },
+   "contral_cam": {
+      "is_contral_cam": 0,
+      "contral_cam_threadshold": 87
+   },
+   "label": "hook_detection",
+   "Pan": 228,
+   "Tilt": 81,
+   "Zoom": 2
+}
