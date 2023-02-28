@@ -1,0 +1,33 @@
+{
+   "net_bin": "./models/hook_rush_exp1.bin",             //hook_wlxd_exp12.bin
+	"net_param": "./models/hook_rush_exp1.param",         //hook_wlxd_exp12.param
+	"is_save_img": {
+		"is_save": 1,
+		"interval": 20
+	},
+   "threshold_punch_top": {
+      "is_change_threadshold": 1,
+      "serious_punch_top": 197,
+      "moderate_punch_top": 158,      //235
+      "mild_punch_top": 130           //262
+   },
+   "level": {
+      //平滑参数，连续多少次报警才发送报警
+      "smoothing_factor": 4,
+      "warn": "warn",
+      "early_warn": "early_warn",
+      "abnormal": "abnormal"
+   },
+   "contral_cam": {
+      "is_contral_cam": 0,
+      "contral_cam_threadshold": 87
+   },
+   //图像压缩比例
+   "img_ratio": 0.3,
+   //图像发送前端间隔多少帧
+   "send_interval": 10,        //send_interval要大于smoothing_factor
+   "label": "hook_detection",
+   "Pan": 228,
+   "Tilt": 81,
+   "Zoom": 2
+}
